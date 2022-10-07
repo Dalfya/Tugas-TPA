@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body {
+    font-family: 'Garamond';
+    background-color: #c6b4ce;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+}
+.nav-links a {
+    color: black;
+    padding: 10px;
+
+}
+
+/* LOGO */
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: #fff5de;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+ 
+
+.home {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.about {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.porto {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.blog{
+    border: 2px solid black;
+    border-radius: 15px;
+	background-color: #fff5de;
+}
+
+.container {
+	padding: 0;
+	margin: auto;
+	display: grid;
+	/* grid-template-columns: repeat(8,1fr); */
+	margin: 15px 15px;
+	gap:20px;
+	position: relative;
+  }
+  
+  .card {
+	width: 95%;
+	height: auto;
+	grid-column: span 10;
+    margin-top: 20px;
+	margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+	/* border-radius: 20px; */
+	position: relative;
+	/* box-shadow: 0 10px 10px rgba(0,0,0,.1); */
+	/* background-color: #fff5de; */
+    border-bottom: 3px solid rgb(250, 248, 248);
+  
+  }
+
+  .container :hover{
+	 background-color:  rgb(230 230 250);
+  }
+  
+  .head-card h1 {
+	margin: 15px;
+    color: #2f2a2a;
+  }
+  
+  .body-card {
+	padding: 10px 15px;
+  }
+  
+  .body-card h1 {
+	margin: 0;  
+  
+  }
+  
+  .body-card svg {
+	width: 31px;
+	position: absolute;
+	bottom: 7px;
+	right: 20px;
+  }
+
+  .artikel h1{
+    margin-top: 60px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    color:  #fff5de;
+  }

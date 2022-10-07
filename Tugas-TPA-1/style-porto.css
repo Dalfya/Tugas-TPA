@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body {
+    font-family: 'Garamond';
+    background-color: #c6b4ce;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+}
+.nav-links a {
+    color: black;
+    padding: 10px;
+
+}
+
+/* LOGO */
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: #fff5de;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+.home {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.about {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.porto {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #fff5de;
+}
+.blog{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.container {
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin: 15px 15px;
+    margin-top: 3opx;
+    gap:60px;
+    position: relative;
+
+  }
+
+.card {
+    width: 100%;
+    height: auto;
+    grid-column: span 8;
+    margin-top: 40px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    background-color: rgb(230 230 250);
+  }
+
+.head-card img {
+    width: 49%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+
+.body-card {
+    padding: 10px 15px;
+  }
+
+.text{
+    font-family:'Garamond';
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+}
+.body-card h1 {
+    margin: 0;
+
+  }
+
+.body-card svg {
+    width: 31px;
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+  }
+
+.body-card img{
+  width: 400px;
+  height: 200px;
+}
+
+.artikel{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 30px;
+}
